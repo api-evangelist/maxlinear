@@ -1,7 +1,21 @@
 aid: maxlinear
 name: MaxLinear
-description: MaxLinear is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  MaxLinear, Inc. (NASDAQ: MXL) is a fabless semiconductor company headquartered
+  in Carlsbad, California that designs radio-frequency (RF), high-performance
+  analog, and mixed-signal communications systems-on-chip (SoCs) for critical
+  network infrastructure, the connected home, and industrial and multi-market
+  applications. Its products integrate RF, analog, mixed-signal, digital signal
+  processing, security engines, data compression, networking, and power
+  management into single chips that power cable and fiber broadband modems,
+  Wi-Fi 6/7 and wireline home routers, optical transceivers, 4G/5G base-station
+  and backhaul infrastructure, and high-speed data-center interconnects.
+  MaxLinear exposes developer surface primarily as hardware/firmware SDKs and C
+  APIs (for example the Panther Storage Acceleration SDK and the MxL890x Raw
+  Acceleration API) delivered with its silicon, along with design tools,
+  simulation models, and a technical documentation library — it does not publish
+  a public web/REST API. This profile was surfaced as a Battery Ventures
+  portfolio company and enriched from public sources.
 url: https://raw.githubusercontent.com/api-evangelist/maxlinear/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +23,53 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://www.maxlinear.com/img/maxlinear-logo.svg
 tags:
 - Company
+- Semiconductors
+- Connectivity
+- Broadband
+- Infrastructure
+- Networking
+- Hardware
+- SDK
 apis: []
+common:
+- type: DomainSecurity
+  url: security/maxlinear-domain-security.yml
+- type: Website
+  url: https://www.maxlinear.com
+- type: Documentation
+  url: https://www.maxlinear.com/support/technical-documentation
+- type: Support
+  url: https://www.maxlinear.com/support/contact-us
+- type: Blog
+  url: https://www.maxlinear.com/news
+- type: TermsOfService
+  url: https://www.maxlinear.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.maxlinear.com/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
