@@ -31,3 +31,39 @@
     status: 'NYSE: MXLN'
   status: not-a-workflow
   arazzo: null
+- slug: maxlinear-open-compute-project-marketplace
+  label: Open Compute Project marketplace
+  partner_name: Open Compute Project marketplace
+  category: data-center hardware recognition
+  type: register
+  channel: standard-directory
+  evidence: https://www.opencompute.org/marketplace/it-infrastructure/maxlinear-panther-storage-accelerator/
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: Open Compute Project marketplace (opencompute.org/products; /wp-json/wp/v2/marketplace + /companies)
+    standard: Open Compute Project
+    spec_file: null
+    role: ocp-recognised-product-vendor
+    registered_name: MaxLinear
+    register_id: https://www.opencompute.org/members/maxlinear/
+    matched_domain: maxlinear.com
+    matched_by: domain
+    listings: 1
+    recognised_listings: 1
+    products_sample:
+    - MaxLinear Panther Storage Accelerator
+    signal_note: certified_products = one entry per product type (OCP recognition + most specific marketplace segment)
+      among OCP-recognised listings; unrecognised listings are listing alone (participation). The REST data marks
+      no listing archived, so lapsed is false. Listing counts are context, never counted
+    detected_by: sweep-semiconductor-consortia.py
+    detected: '2026-10-21'
+    certified_products:
+    - product: 'OCP Accepted: Storage Accelerators'
+      recognition: OCP Accepted
+      product_type: Storage Accelerators
+      lapsed: false
+      listings: 1
+      newest_listing: '2024-11-07'
+  status: not-a-workflow
+  arazzo: null
